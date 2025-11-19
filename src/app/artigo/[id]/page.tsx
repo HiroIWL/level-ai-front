@@ -25,7 +25,15 @@ const artigosMap: Record<
         titulo: 'Comece com IA',
         foto: 'artigo1.png',
         tempo_leitura: '5 min de leitura',
-        conteudo: conteudoPadrao,
+        conteudo: `Inteligência Artificial deixou de ser algo distante e técnico para se tornar uma ferramenta acessível a qualquer pessoa. Hoje, você não precisa ser programador para aproveitar seus benefícios. Com as novas plataformas de IA generativa, é possível resolver problemas, melhorar a produtividade e explorar novas formas de trabalhar usando apenas linguagem natural.
+
+Uma das portas de entrada mais práticas é a automação do dia a dia. Coisas simples, como organizar tarefas, responder e-mails repetitivos, gerar relatórios ou extrair informações de PDFs, podem ser feitas automaticamente por ferramentas conectadas à IA. Isso libera tempo para atividades mais importantes e torna o trabalho mais leve e eficiente. Profissionais de qualquer área — vendas, administração, marketing, finanças ou educação — podem começar com pequenos fluxos que economizam horas por semana.
+
+Outra tendência poderosa é o movimento low-code e no-code, que permite criar aplicativos, automações e sistemas sem saber programar. Plataformas como n8n, Make, Zapier e Power Automate já oferecem blocos prontos que você só encaixa, enquanto a IA ajuda a configurar textos, regras e decisões. Com isso, qualquer pessoa consegue construir soluções personalizadas para o próprio trabalho, mesmo sem experiência técnica.
+
+A chegada de modelos como o GPT ampliou ainda mais esse potencial. Eles entendem contexto, criam textos, analisam dados, conversam com APIs, trabalham com planilhas e ajudam a transformar ideias em produtos funcionais. Um simples prompt pode gerar um e-mail profissional, um post para redes sociais, um resumo de reunião ou até o esboço de um aplicativo. É como ter um assistente digital disponível 24 horas por dia.
+
+Começar com IA não significa dominar tudo de uma vez. Significa dar um passo: testar uma automação, criar um fluxo simples, pedir ajuda ao GPT para resolver uma tarefa, ou explorar uma ferramenta low-code. Com o tempo, você vai percebendo como a IA não substitui seu trabalho, mas amplia suas capacidades e abre portas para um futuro profissional mais produtivo, criativo e competitivo.`,
     },
     '2': {
         titulo: 'Aprenda Python',
@@ -61,7 +69,7 @@ const artigosMap: Record<
         titulo: 'Processamento de Linguagem Natural',
         foto: 'artigo7.jpeg',
         tempo_leitura: '11 min de leitura',
-        conteudo: conteudoPadrao
+        conteudo: conteudoPadrao,
     },
     '8': {
         titulo: 'Implante Modelos de IA',
@@ -113,7 +121,7 @@ export default function ArtigoPage({
                     src={`/static/${artigo.foto}`}
                     width={0}
                     height={0}
-                    sizes='100vw'
+                    sizes="100vw"
                     alt={artigo.titulo}
                     className="w-full max-h-[300px] object-cover rounded-lg"
                 />
